@@ -1,0 +1,22 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+.navbar-brand{
+    margin-left: 10%;
+}
+
+.navbar-collapse{
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around
+}
+
+.navbar-nav a:hover{
+    color: #F9995D !important;
+}
+
+
