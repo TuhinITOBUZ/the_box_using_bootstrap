@@ -1,22 +1,296 @@
-.body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Work Sans", sans-serif;
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
 }
 
-.navbar-brand{
-    margin-left: 10%;
+a {
+  text-decoration: none !important;
 }
 
-.navbar-collapse{
-    margin-left: 20%;
-    display: flex;
-    justify-content: space-around
+p {
+  color: #858ead;
 }
 
-.navbar-nav a:hover{
-    color: #F9995D !important;
+.navbar-brand {
+  margin-left: 10%;
 }
 
+.navbar-collapse {
+  margin-left: 20%;
+}
 
+.navbar-nav a:hover {
+  color: #f9995d !important;
+}
+
+.page-banner {
+  background-image: url("../images//pageBanner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 92vh;
+}
+
+.page-bannner-heading {
+  padding: 15%;
+}
+
+.feature-project {
+  background-color: #3559c7;
+  right: 10%;
+}
+
+.page-banner-back-button,
+.page-banner-next-button {
+  padding: 10px 5rem 10px 5rem !important;
+}
+
+.page-banner-sub-box a {
+  color: #ffffff;
+}
+
+.about-us {
+  color: #ffffff;
+}
+
+.about-us img {
+  width: 65vw;
+  left: 10vw;
+}
+
+.about-sub-box {
+  background-color: #2947a9;
+  top: 10vh;
+  left: 65%;
+}
+
+.about-us p {
+  color: #ffffff;
+}
+
+.services {
+  padding: 5vh 0 10vh 0;
+  background-color: #f6f8f7;
+  height: fit-content;
+}
+
+.sub-services {
+  gap: 5vw;
+  width: 80%;
+}
+
+.services img {
+  margin: 5vh 0 0 0;
+  width: 3vw;
+}
+
+.services hr {
+  background-color: #e0e3eb;
+  width: 30%;
+  height: 2px;
+  margin: 2vh 0 2vh 0;
+}
+
+.service-construction,
+.service-consultation,
+.service-architecture {
+  width: 20vw;
+  height: 30vh;
+  background-color: #ffffff;
+  color: #2947a9;
+}
+
+.service-renovation,
+.service-repair-services,
+.service-electric {
+  width: 20vw;
+  height: 30vh;
+  background-color: #2947a9;
+  color: #ffffff;
+}
+
+.experience {
+  padding: 10vh 0 10vh 0;
+}
+
+.experience-items h3 {
+  font-size: 10vh;
+  position: relative;
+}
+
+.experience-items p {
+  font-size: 2.5vh;
+  width: 60%;
+  height: 2vh;
+  padding: 1vw;
+  border-left: 0.5vw solid #f9995d;
+}
+
+.experience img {
+  position: relative;
+  width: 8vw;
+  height: 12vh;
+}
+
+.experience-items p {
+  width: 90%;
+  position: relative;
+  left: 10vw;
+  color: #525b7a;
+  font-size: 0.9vw;
+  text-align: left;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.experience-item-happy-clients,
+.experience-item-projects-completed,
+.experience-item-awards-win,
+.experience-item-years-in-business {
+  width: 20vw;
+  height: 18vh;
+  box-shadow: 0px 12px 16px -4px rgba(17, 24, 39, 0.1);
+  background: transparent;
+}
+
+.experience-item-happy-clients,
+.experience-item-awards-win {
+  left: 17vw;
+  z-index: 2;
+}
+
+.experience-item-projects-completed,
+.experience-item-years-in-business {
+  z-index: 1;
+}
+
+.experience-item-happy-clients {
+  top: 5vh;
+}
+
+.experience-item-awards-win {
+  top: -5vh;
+}
+
+.experience-item-years-in-business {
+  top: -10vh;
+}
+
+.experience-item-happy-clients h3 {
+  top: -23vh;
+  left: 2vw;
+}
+
+.experience-item-happy-clients img {
+  top: -4vh;
+  left: 80%;
+}
+
+.experience-item-projects-completed img {
+  top: -4vh;
+  left: -3vw;
+}
+
+.experience-item-awards-win img {
+  top: -4vh;
+  left: 75%;
+}
+
+.experience-item-years-in-business img {
+  top: 10vh;
+  left: 92%;
+}
+
+.experience-item-happy-clients h3,
+.experience-item-awards-win h3,
+.experience-item-projects-completed h3,
+.experience-item-years-in-business h3 {
+  top: -14vh;
+  left: 4.8vw;
+}
+
+.experience-item-happy-clients p,
+.experience-item-projects-completed p {
+  top: -14vh;
+  left: 3.5vw;
+}
+
+.experience-item-awards-win p {
+  top: -15vh;
+  left: 5vw;
+}
+
+.experience-item-years-in-business p {
+  top: -15vh;
+  left: 3vw;
+}
+
+.experience-details h2 {
+  margin-top: 12vh;
+  left: 5vw;
+  color: #2947a9;
+}
+
+.experience-details p {
+  left: 5vw;
+  color: #525b7a;
+}
+
+.experience-details button {
+  background-color: #2947a9;
+  color: #ffffff;
+  height: 5vh;
+  left: 5vw;
+  top: 4vh;
+}
+
+.consultation {
+  background: url("../images/lowerBanner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  color: #ffffff;
+}
+
+.consultation h2 {
+  left: 10vw;
+  top: 10vh;
+}
+
+.consultation div {
+  width: 13vw;
+  height: 5vh;
+  top: 18vh;
+  left: -2vw;
+  border: #ffffff 2px solid;
+}
+
+.consultation p {
+  height: fit-content;
+  width: fit-content;
+  left: -21vw;
+  top: 4vh;
+  color: #ffffff;
+}
+
+.dots-design {
+  background-color: #f6f8f7;
+  width: 1.5vw;
+  height: 3vh;
+  border-radius: 50%;
+}
+
+.projects-dots-design div:nth-child(1) {
+  background-color: #2947a9 !important;
+}
+
+.card p{
+    color: #ffffff;
+}
+
+.project-section-buttons{
+    left: 10vw;
+}
