@@ -5,10 +5,6 @@
   font-family: "Work Sans", sans-serif;
 }
 
-a {
-  text-decoration: none !important;
-}
-
 p {
   color: #858ead;
 }
@@ -26,7 +22,7 @@ p {
 }
 
 .page-banner {
-  background-image: url("../images//pageBanner.png");
+  background-image: url("../images/pageBanner.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -276,21 +272,87 @@ p {
   color: #ffffff;
 }
 
+.projects-nav-link{
+  border-left: 5px solid #2947A9;
+}
+
 .dots-design {
   background-color: #f6f8f7;
   width: 1.5vw;
   height: 3vh;
-  border-radius: 50%;
 }
 
 .projects-dots-design div:nth-child(1) {
   background-color: #2947a9 !important;
 }
 
-.card p{
-    color: #ffffff;
+.card p {
+  color: #ffffff;
 }
 
-.project-section-buttons{
-    left: 10vw;
+.project-section-buttons {
+  left: 40%;
+}
+
+.contactUs {
+  background-color: #ffffff;
+}
+
+.contact-details {
+  padding-left: 12vw;
+  padding-top: 4vh;
+  width: fit-content;
+  margin-bottom: 10vh;
+  font-weight: 100;
+}
+
+.contact-details span {
+  color: #2947a9;
+}
+
+.contact-details h4:nth-child(1) span {
+  padding-right: 3.7vw;
+}
+
+.contact-details h4:nth-child(2) span {
+  padding-right: 5vw;
+}
+
+.contact-details h4:nth-child(3) span {
+  padding-right: 5.4vw;
+}
+
+.contact-details h3 span {
+  font-style: italic;
+  font-weight: bolder;
+  left: 16%;
+  margin-top: 1.5vh;
+  font-weight: bolder;
+}
+
+.contact-details input {
+  height: 5vh;
+  width: 15vw;
+}
+
+.contact-details button {
+  top: -0.5vh;
+  height: 5vh;
+  background-color: #f9995d;
+  color: #ffffff;
+}
+
+.contact-details img {
+  width: 2.5rem;
+}
+
+.footer {
+  background-color: #2947a9;
+  height: 7.5vh;
+}
+
+.footer p {
+  color: #ffffff;
+  left: 10vw;
+  width: fit-content;
 }
