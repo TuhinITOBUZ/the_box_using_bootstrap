@@ -17,8 +17,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-
+  <body class="m-0 p-o">
     <header>
       <!-- navbar section starts here -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -44,10 +43,10 @@
           >
             <div class="navbar-nav d-flex flex-row gap-3">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link active" href="#">About Us</a>
-              <a class="nav-link active" href="#">Projects</a>
-              <a class="nav-link active" href="#">Services</a>
-              <a class="nav-link active" href="#">Contact Us</a>
+              <a class="nav-link active" href="#aboutUs">About Us</a>
+              <a class="nav-link active" href="#projects">Projects</a>
+              <a class="nav-link active" href="#services">Services</a>
+              <a class="nav-link active" href="#contact">Contact Us</a>
             </div>
           </div>
         </div>
@@ -65,7 +64,7 @@
         class="col-4 d-flex flex-column justify-self-end align-self-end bg-blue text-white pt-3 gap-2 feature-project position-absolute bottom-0"
       >
         <h2 class="text-center fw-bold pt-2">Feature Projects</h2>
-        <h5 class="text-center fw-normal fs-3">
+        <h5 class="text-center fw-normal fs-4">
           The National University of <br />
           Architecture
         </h5>
@@ -123,7 +122,7 @@
     <!-- Our reputation Section Ends here -->
 
     <!-- about section starts here  -->
-    <section class="about-us d-flex flex-row position-relative">
+    <section class="about-us d-flex flex-row position-relative" id="aboutUs">
       <img
         src="./images/person.png"
         alt="person"
@@ -208,26 +207,26 @@
       >
         <div class="experience-item-happy-clients position-relative rounded">
           <img src="./images/deal.png" alt="deal" />
-          <h3>84</h3>
-          <p class="position-relative">Happy Clients</p>
+          <h3 class="position-relative">84</h3>
+          <p>Happy Clients</p>
         </div>
         <div
           class="experience-item-projects-completed position-relative rounded"
         >
           <img src="./images/notes.png" alt="notes" />
-          <h3>123</h3>
+          <h3 class="position-relative">123</h3>
           <p>Projects Completed</p>
         </div>
         <div class="experience-item-awards-win position-relative rounded">
           <img src="./images/awards.png" alt="awards" />
-          <h3>37</h3>
+          <h3 class="position-relative">37</h3>
           <p>Awards Win</p>
         </div>
         <div
           class="experience-item-years-in-business position-relative rounded"
         >
           <img src="./images/business.png" alt="business" />
-          <h3>30</h3>
+          <h3 class="position-relative">30</h3>
           <p>Years in Business</p>
         </div>
       </div>
@@ -261,7 +260,7 @@
     <!-- consultation section ends here  -->
 
     <!-- Projects Section Starts Here -->
-    <section class="container-fluid">
+    <section class="container-fluid" id="projects">
       <h2 class="offset-1 mt-5 display-3 p-3">Projects</h2>
       <div class="row">
         <nav class="col-3 nav flex-column my-5 offset-1">
@@ -284,11 +283,7 @@
             </div>
           </div>
           <div class="card bg-primary" style="width: 28rem">
-            <img
-              src="./images/wishstone.png"
-              class="card-img-top"
-              alt="logo"
-            />
+            <img src="./images/wishstone.png" class="card-img-top" alt="logo" />
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
               <p class="card-text">2715 Ash Dr. San Jose, South Dakota</p>
@@ -405,14 +400,14 @@
 
     <!-- contact information starts here -->
     <section class="contactUs d-flex flex-row g-3 w-100 p-4">
-      <div class="contact-details fs-5">
+      <div class="contact-details font-weight-bold fs-5">
         <h4><span>ADDRESS:</span> 6391 Elgin St. Celina, Delaware 10299</h4>
         <h4><span>PHONE:</span> +84 1102 2703</h4>
         <h4><span>EMAIL:</span> hello@thebox.com</h4>
         <h3 class="p-1"><span class="position-absolute">TheBox</span></h3>
         <img src="./images/pageLogo.png" alt="pageLogo" />
       </div>
-      <div class="contact-details">
+      <div class="contact-details font-weight-bold">
         <h4><span>NEWSLETTER:</span></h4>
         <input type="email" placeholder="Your email here" class="p-1 fs-5" />
         <button class="btn btn-lg p-1 rounded position-relative">
@@ -428,7 +423,7 @@
 
     <!-- footer starts here -->
     <footer class="footer w-100">
-      <p class="fs-4 position-relative p-3">
+      <p class="fs-4 position-relative p-2">
         TheBox Company © 2022. All Rights Reserved
       </p>
     </footer>
